@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Construction Company | Building Excellence in Nigeria</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0f172a',
+                            primary: '#0284c7',
+                            accent: '#f59e0b',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-brand-primary text-white p-2.5 rounded-lg font-bold text-xl flex items-center justify-center shadow-md">
+                    <i class="fa-solid fa-helmet-safety"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-bold tracking-tight text-slate-900 block leading-tight">Crystal Construction</span>
+                    <span class="text-xs text-brand-primary font-semibold uppercase tracking-wider">Company Nigeria</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-8 font-medium text-slate-600">
+                <a href="#about" class="hover:text-brand-primary transition">About Us</a>
+                <a href="#services" class="hover:text-brand-primary transition">Services</a>
+                <a href="#why-us" class="hover:text-brand-primary transition">Why Us</a>
+                <a href="#contact" class="hover:text-brand-primary transition">Contact</a>
+            </nav>
+            <div>
+                <a href="#contact" class="hidden sm:inline-block bg-brand-primary hover:bg-sky-700 text-white font-medium px-5 py-2.5 rounded-lg shadow-sm transition">
+                    Get a Quote
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-slate-900 text-white overflow-hidden py-24 lg:py-32">
+        <div class="absolute inset-0 z-0 opacity-40 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d0fbb18f2445?auto=format&fit=crop&q=80&w=1600');"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/90 to-transparent z-10"></div>
+        
+        <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-2xl">
+                <div class="inline-flex items-center space-x-2 bg-brand-primary/20 text-brand-accent px-3 py-1 rounded-full text-sm font-semibold mb-6 border border-brand-primary/30">
+                    <i class="fa-solid fa-star text-xs"></i>
+                    <span>Top-Rated Construction Services in Nigeria</span>
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight mb-6">
+                    Building Your Vision With <span class="text-brand-primary">Precision & Trust</span>
+                </h1>
+                <p class="text-lg text-slate-300 mb-8 leading-relaxed">
+                    From structural engineering to commercial and residential developments, Crystal Construction Company delivers exceptional craftsmanship, reliability, and quality standards across Nigeria.
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#contact" class="bg-brand-primary hover:bg-sky-700 text-white text-center font-semibold px-8 py-4 rounded-xl shadow-lg transition">
+                        Start Your Project
+                    </a>
+                    <a href="#services" class="bg-white/10 hover:bg-white/20 text-white text-center font-semibold px-8 py-4 rounded-xl backdrop-blur-sm border border-white/20 transition">
+                        Our Services
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Stats Banner -->
+    <section class="bg-white border-b border-slate-200 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-4">
+                    <div class="text-3xl font-extrabold text-slate-900 mb-1">5.0 <i class="fa-solid fa-star text-amber-400 text-xl"></i></div>
+                    <div class="text-sm text-slate-500 font-medium">Google Review Rating</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-3xl font-extrabold text-brand-primary mb-1">100%</div>
+                    <div class="text-sm text-slate-500 font-medium">Quality Commitment</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-3xl font-extrabold text-slate-900 mb-1">Expert</div>
+                    <div class="text-sm text-slate-500 font-medium">Engineers & Builders</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-3xl font-extrabold text-brand-primary mb-1">Anambra</div>
+                    <div class="text-sm text-slate-500 font-medium">Headquartered in Nigeria</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-xs font-bold text-brand-primary uppercase tracking-widest mb-3">About Crystal Construction</h2>
+                    <h3 class="text-3xl font-bold text-slate-900 mb-6">Committed to Structural Integrity & Excellence</h3>
+                    <p class="text-slate-600 leading-relaxed mb-4">
+                        Crystal Construction Company is a premier construction firm rooted in Nigeria. Located conveniently near Nnamdi Azikiwe University, we combine deep technical expertise with innovative design perspectives to turn architectural blueprints into solid realities.
+                    </p>
+                    <p class="text-slate-600 leading-relaxed mb-6">
+                        Whether executing large-scale commercial structures, institutional buildings, or high-end residential spaces, our team maintains rigid standards of safety, time management, and budget efficiency.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 pt-2">
+                        <div class="flex items-center space-x-3">
+                            <i class="fa-solid fa-circle-check text-brand-primary"></i>
+                            <span class="font-semibold text-slate-800">Licensed Professionals</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fa-solid fa-circle-check text-brand-primary"></i>
+                            <span class="font-semibold text-slate-800">Quality Materials</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fa-solid fa-circle-check text-brand-primary"></i>
+                            <span class="font-semibold text-slate-800">On-Time Delivery</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fa-solid fa-circle-check text-brand-primary"></i>
+                            <span class="font-semibold text-slate-800">Transparent Pricing</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=800" alt="Construction site engineering" class="rounded-2xl shadow-xl w-full object-cover h-[450px]">
+                    <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg border border-slate-100 hidden sm:block">
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-amber-100 text-amber-600 p-3 rounded-lg text-xl">
+                                <i class="fa-solid fa-award"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Top Rated Service</h4>
+                                <p class="text-xs text-slate-500">Trusted by clients across Nigeria</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold text-brand-primary uppercase tracking-widest mb-3">Our Core Offerings</h2>
+                <h3 class="text-3xl font-bold text-slate-900 mb-4">Comprehensive Construction & Engineering Services</h3>
+                <p class="text-slate-600">We manage projects from conceptualization to final finishing with absolute precision.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-brand-primary/10 text-brand-primary rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-primary group-hover:text-white transition">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-3">Commercial Construction</h4>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        Building functional, modern, and durable commercial spaces designed to boost enterprise productivity and business value.
+                    </p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-brand-primary/10 text-brand-primary rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-primary group-hover:text-white transition">
+                        <i class="fa-solid fa-house-chimney"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-3">Residential Development</h4>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        Crafting safe, beautiful, and personalized homes tailored to architectural beauty and contemporary comfortable living.
+                    </p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-brand-primary/10 text-brand-primary rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-primary group-hover:text-white transition">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-3">Structural Engineering & Consulting</h4>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        Expert project planning, structural analysis, blueprint execution, and professional engineering consultation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-xs font-bold text-brand-primary uppercase tracking-widest mb-3">Why Crystal Construction</h2>
+                    <h3 class="text-3xl font-bold mb-6">Building Stronger Foundations For The Future</h3>
+                    <p class="text-slate-300 mb-8 leading-relaxed">
+                        We pride ourselves on an uncompromising commitment to safety regulations, rigorous quality control checks, and client satisfaction. Our 5.0 rating speaks volumes about our dedication to every project we undertake.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-brand-primary/20 p-2 rounded-lg text-brand-primary mt-1">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Uncompromising Safety</h4>
+                                <p class="text-slate-400 text-sm">Adhering strictly to standard occupational health and site safety guidelines.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-brand-primary/20 p-2 rounded-lg text-brand-primary mt-1">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Punctual Project Execution</h4>
+                                <p class="text-slate-400 text-sm">Delivering milestones and final handover within the agreed timeline.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 shadow-xl">
+                    <h3 class="text-2xl font-bold mb-6">Ready to work with us?</h3>
+                    <p class="text-slate-300 text-sm mb-6">Visit our office or get in touch with our team today to discuss your next construction project.</p>
+                    <div class="space-y-4 text-sm">
+                        <div class="flex items-center space-x-3 text-slate-300">
+                            <i class="fa-solid fa-location-dot text-brand-primary w-5"></i>
+                            <span>34 Unizik Road, Nnamdi Azikiwe University, Anambra 420112</span>
+                        </div>
+                        <div class="flex items-center space-x-3 text-slate-300">
+                            <i class="fa-solid fa-clock text-brand-primary w-5"></i>
+                            <span>Monday – Saturday: Open · Closes 6:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <h2 class="text-xs font-bold text-brand-primary uppercase tracking-widest mb-3">Get In Touch</h2>
+                <h3 class="text-3xl font-bold text-slate-900 mb-4">Let’s Discuss Your Next Project</h3>
+                <p class="text-slate-600">Fill out the form below or drop by our office location to start a conversation with our engineering team.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Info Column -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                    <h4 class="text-xl font-bold text-slate-900 mb-6">Office Information</h4>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-brand-primary/10 p-3 rounded-lg text-brand-primary">
+                                <i class="fa-solid fa-location-dot text-lg"></i>
+                            </div>
+                            <div>
+                                <span class="block text-xs font-semibold text-slate-400 uppercase tracking-wider">Location</span>
+                                <span class="text-slate-800 font-medium">Located in: Nnamdi Azikiwe University</span>
+                                <p class="text-slate-600 text-sm">34 Unizik Road, Anambra 420112, Anambra, Nigeria</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-brand-primary/10 p-3 rounded-lg text-brand-primary">
+                                <i class="fa-solid fa-clock text-lg"></i>
+                            </div>
+                            <div>
+                                <span class="block text-xs font-semibold text-slate-400 uppercase tracking-wider">Working Hours</span>
+                                <span class="text-slate-800 font-medium">Open Daily · Closes 6:00 PM</span>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-brand-primary/10 p-3 rounded-lg text-brand-primary">
+                                <i class="fa-solid fa-star text-lg"></i>
+                            </div>
+                            <div>
+                                <span class="block text-xs font-semibold text-slate-400 uppercase tracking-wider">Reputation</span>
+                                <span class="text-slate-800 font-medium">5.0 Star Google Review Rating</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form Column -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                    <form onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent to Crystal Construction Company.');" class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-1">Full Name</label>
+                            <input type="text" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-primary focus:border-brand-primary outline-none transition" placeholder="Enter your full name">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-1">Phone Number</label>
+                            <input type="tel" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-primary focus:border-brand-primary outline-none transition" placeholder="Enter your phone number">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-1">Project Type</label>
+                            <select class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-primary focus:border-brand-primary outline-none tr
